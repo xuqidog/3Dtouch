@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E2A69651BF47A3C0080835A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A69641BF47A3C0080835A /* main.m */; };
+		8E2A69681BF47A3C0080835A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A69671BF47A3C0080835A /* AppDelegate.m */; };
+		8E2A696B1BF47A3C0080835A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A696A1BF47A3C0080835A /* ViewController.m */; };
+		8E2A696E1BF47A3C0080835A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A696C1BF47A3C0080835A /* Main.storyboard */; };
+		8E2A69701BF47A3C0080835A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A696F1BF47A3C0080835A /* Assets.xcassets */; };
+		8E2A69731BF47A3C0080835A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2A69711BF47A3C0080835A /* LaunchScreen.storyboard */; };
+		8E2A697E1BF47A3C0080835A /* iwatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A697D1BF47A3C0080835A /* iwatchTests.m */; };
+		8E2A69891BF47A3C0080835A /* iwatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A69881BF47A3C0080835A /* iwatchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E2A697A1BF47A3C0080835A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2A69581BF47A3C0080835A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2A695F1BF47A3C0080835A;
+			remoteInfo = iwatch;
+		};
+		8E2A69851BF47A3C0080835A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2A69581BF47A3C0080835A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2A695F1BF47A3C0080835A;
+			remoteInfo = iwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E2A69601BF47A3C0080835A /* iwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2A69641BF47A3C0080835A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E2A69661BF47A3C0080835A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E2A69671BF47A3C0080835A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E2A69691BF47A3C0080835A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E2A696A1BF47A3C0080835A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E2A696D1BF47A3C0080835A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E2A696F1BF47A3C0080835A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2A69721BF47A3C0080835A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E2A69741BF47A3C0080835A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2A69791BF47A3C0080835A /* iwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2A697D1BF47A3C0080835A /* iwatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iwatchTests.m; sourceTree = "<group>"; };
+		8E2A697F1BF47A3C0080835A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2A69841BF47A3C0080835A /* iwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2A69881BF47A3C0080835A /* iwatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iwatchUITests.m; sourceTree = "<group>"; };
+		8E2A698A1BF47A3C0080835A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2A695D1BF47A3C0080835A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A69761BF47A3C0080835A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A69811BF47A3C0080835A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2A69571BF47A3C0080835A = {
+			isa = PBXGroup;
+			children = (
+				8E2A69621BF47A3C0080835A /* iwatch */,
+				8E2A697C1BF47A3C0080835A /* iwatchTests */,
+				8E2A69871BF47A3C0080835A /* iwatchUITests */,
+				8E2A69611BF47A3C0080835A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2A69611BF47A3C0080835A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A69601BF47A3C0080835A /* iwatch.app */,
+				8E2A69791BF47A3C0080835A /* iwatchTests.xctest */,
+				8E2A69841BF47A3C0080835A /* iwatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2A69621BF47A3C0080835A /* iwatch */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A69661BF47A3C0080835A /* AppDelegate.h */,
+				8E2A69671BF47A3C0080835A /* AppDelegate.m */,
+				8E2A69691BF47A3C0080835A /* ViewController.h */,
+				8E2A696A1BF47A3C0080835A /* ViewController.m */,
+				8E2A696C1BF47A3C0080835A /* Main.storyboard */,
+				8E2A696F1BF47A3C0080835A /* Assets.xcassets */,
+				8E2A69711BF47A3C0080835A /* LaunchScreen.storyboard */,
+				8E2A69741BF47A3C0080835A /* Info.plist */,
+				8E2A69631BF47A3C0080835A /* Supporting Files */,
+			);
+			path = iwatch;
+			sourceTree = "<group>";
+		};
+		8E2A69631BF47A3C0080835A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A69641BF47A3C0080835A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E2A697C1BF47A3C0080835A /* iwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A697D1BF47A3C0080835A /* iwatchTests.m */,
+				8E2A697F1BF47A3C0080835A /* Info.plist */,
+			);
+			path = iwatchTests;
+			sourceTree = "<group>";
+		};
+		8E2A69871BF47A3C0080835A /* iwatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A69881BF47A3C0080835A /* iwatchUITests.m */,
+				8E2A698A1BF47A3C0080835A /* Info.plist */,
+			);
+			path = iwatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2A695F1BF47A3C0080835A /* iwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2A698D1BF47A3C0080835A /* Build configuration list for PBXNativeTarget "iwatch" */;
+			buildPhases = (
+				8E2A695C1BF47A3C0080835A /* Sources */,
+				8E2A695D1BF47A3C0080835A /* Frameworks */,
+				8E2A695E1BF47A3C0080835A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iwatch;
+			productName = iwatch;
+			productReference = 8E2A69601BF47A3C0080835A /* iwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E2A69781BF47A3C0080835A /* iwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2A69901BF47A3C0080835A /* Build configuration list for PBXNativeTarget "iwatchTests" */;
+			buildPhases = (
+				8E2A69751BF47A3C0080835A /* Sources */,
+				8E2A69761BF47A3C0080835A /* Frameworks */,
+				8E2A69771BF47A3C0080835A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2A697B1BF47A3C0080835A /* PBXTargetDependency */,
+			);
+			name = iwatchTests;
+			productName = iwatchTests;
+			productReference = 8E2A69791BF47A3C0080835A /* iwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E2A69831BF47A3C0080835A /* iwatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2A69931BF47A3C0080835A /* Build configuration list for PBXNativeTarget "iwatchUITests" */;
+			buildPhases = (
+				8E2A69801BF47A3C0080835A /* Sources */,
+				8E2A69811BF47A3C0080835A /* Frameworks */,
+				8E2A69821BF47A3C0080835A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2A69861BF47A3C0080835A /* PBXTargetDependency */,
+			);
+			name = iwatchUITests;
+			productName = iwatchUITests;
+			productReference = 8E2A69841BF47A3C0080835A /* iwatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2A69581BF47A3C0080835A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xuqidong;
+				TargetAttributes = {
+					8E2A695F1BF47A3C0080835A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8E2A69781BF47A3C0080835A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8E2A695F1BF47A3C0080835A;
+					};
+					8E2A69831BF47A3C0080835A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8E2A695F1BF47A3C0080835A;
+					};
+				};
+			};
+			buildConfigurationList = 8E2A695B1BF47A3C0080835A /* Build configuration list for PBXProject "iwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E2A69571BF47A3C0080835A;
+			productRefGroup = 8E2A69611BF47A3C0080835A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2A695F1BF47A3C0080835A /* iwatch */,
+				8E2A69781BF47A3C0080835A /* iwatchTests */,
+				8E2A69831BF47A3C0080835A /* iwatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E2A695E1BF47A3C0080835A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A69731BF47A3C0080835A /* LaunchScreen.storyboard in Resources */,
+				8E2A69701BF47A3C0080835A /* Assets.xcassets in Resources */,
+				8E2A696E1BF47A3C0080835A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A69771BF47A3C0080835A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A69821BF47A3C0080835A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2A695C1BF47A3C0080835A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A696B1BF47A3C0080835A /* ViewController.m in Sources */,
+				8E2A69681BF47A3C0080835A /* AppDelegate.m in Sources */,
+				8E2A69651BF47A3C0080835A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A69751BF47A3C0080835A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A697E1BF47A3C0080835A /* iwatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2A69801BF47A3C0080835A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A69891BF47A3C0080835A /* iwatchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E2A697B1BF47A3C0080835A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2A695F1BF47A3C0080835A /* iwatch */;
+			targetProxy = 8E2A697A1BF47A3C0080835A /* PBXContainerItemProxy */;
+		};
+		8E2A69861BF47A3C0080835A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2A695F1BF47A3C0080835A /* iwatch */;
+			targetProxy = 8E2A69851BF47A3C0080835A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E2A696C1BF47A3C0080835A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2A696D1BF47A3C0080835A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E2A69711BF47A3C0080835A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2A69721BF47A3C0080835A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E2A698B1BF47A3C0080835A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E2A698C1BF47A3C0080835A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E2A698E1BF47A3C0080835A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuqidong.iwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E2A698F1BF47A3C0080835A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuqidong.iwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E2A69911BF47A3C0080835A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuqidong.iwatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iwatch.app/iwatch";
+			};
+			name = Debug;
+		};
+		8E2A69921BF47A3C0080835A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuqidong.iwatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iwatch.app/iwatch";
+			};
+			name = Release;
+		};
+		8E2A69941BF47A3C0080835A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iwatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuqidong.iwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iwatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E2A69951BF47A3C0080835A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iwatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuqidong.iwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iwatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2A695B1BF47A3C0080835A /* Build configuration list for PBXProject "iwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A698B1BF47A3C0080835A /* Debug */,
+				8E2A698C1BF47A3C0080835A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2A698D1BF47A3C0080835A /* Build configuration list for PBXNativeTarget "iwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A698E1BF47A3C0080835A /* Debug */,
+				8E2A698F1BF47A3C0080835A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E2A69901BF47A3C0080835A /* Build configuration list for PBXNativeTarget "iwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A69911BF47A3C0080835A /* Debug */,
+				8E2A69921BF47A3C0080835A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E2A69931BF47A3C0080835A /* Build configuration list for PBXNativeTarget "iwatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A69941BF47A3C0080835A /* Debug */,
+				8E2A69951BF47A3C0080835A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E2A69581BF47A3C0080835A /* Project object */;
+}
