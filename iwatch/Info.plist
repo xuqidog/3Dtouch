@@ -43,5 +43,34 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>UIApplicationShortcutItems</key>
+    <array>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeShare</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>3D Touch 分享</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>-11.UITouchText.share</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeSearch</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>胡乱搜索</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>-11.UITouchText.share</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypePlay</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>就喜欢玩</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>-11.UITouchText.share</string>
+        </dict>
+    </array>
+    
 </dict>
 </plist>

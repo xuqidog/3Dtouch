@@ -7,12 +7,49 @@
 //
 
 #import "AppDelegate.h"
+#import <UIKit/UIKit.h>
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+
+
+//添加3D Touch
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler{
+    
+    
+    
+//    系统自带7种图标样式分别是：Compose,Play,Pause,Add,Location,Search,Share，在plist配置的时候应该就是前面加UIApplicationShortcutIconType了，比如上面UIApplicationShortcutIconTypeSearch
+    
+    
+//        if(self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable) {
+//    
+//                NSLog(@"你的手机支持3D Touch!");
+//        }else{
+//    
+//            NSLog(@"你的手机暂不支持3DTouch！");
+//    
+//        }
+//    
+    
+    
+        //判断先前我们设置的唯一标识
+    
+        if([shortcutItem.type isEqualToString:@"-11.UITouchText.share"]){
+    
+            
+//                NSArray *arr = @[@"hello 3D Touch"];
+    
+//                UIActivityViewController *vc = [[UIActivityViewController alloc]initWithActivityItems:arrapplicationActivities:nil];
+//    
+//                //设置当前的VC为rootVC
+//    
+//                [self.window.rootViewController presentViewController:vc animated:YES completion:^{
+//                }];
+        }
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
